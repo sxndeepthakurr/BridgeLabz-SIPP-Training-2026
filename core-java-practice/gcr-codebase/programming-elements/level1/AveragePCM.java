@@ -1,8 +1,6 @@
-public class AveragePcm {
+public class AveragePCM {
     public static void main(String[] args) {
-        int maths = 94;
-        int physics = 95;
-        int chemistry = 96;
+        int maths = 94, physics = 95, chemistry = 96;
 
         double average = (maths + physics + chemistry) / 3.0;
 
