@@ -53,14 +53,14 @@ public class CustomerOrderValues {
 
     public static void main(String args[]){
 
-        Scanner sca=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
 
-        int n=sca.nextInt();
+        int n=sc.nextInt();
 
         int arr[]=new int[n];
 
         for(int i=0;i<n;i++)
-            arr[i]=sca.nextInt();
+            arr[i]=sc.nextInt();
 
         mergeSort(arr,0,n-1);
 
